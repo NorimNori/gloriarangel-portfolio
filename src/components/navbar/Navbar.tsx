@@ -5,8 +5,16 @@ const Navbar = () => {
     <nav>
         <ul>
             <li>
+                <img />
+            </li>
+            <li>
                 <NavLink to={'/'}>
                     Lobby
+                </NavLink>
+            </li>
+            <li>
+                <NavLink to={''}>
+                    Projects
                 </NavLink>
             </li>
             <li>
@@ -16,7 +24,12 @@ const Navbar = () => {
             </li>
             <li>
                 <NavLink to={''}>
-                    Projects Gateway
+                    About
+                </NavLink>
+            </li>
+            <li>
+                <NavLink to={''}>
+                    Post Office
                 </NavLink>
             </li>
         </ul>

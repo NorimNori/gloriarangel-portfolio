@@ -1,3 +1,5 @@
+@use "./styles/colors.scss";
+
 *,
 *::before,
 *::after {
@@ -36,4 +38,14 @@ body {
     height: 100dvh;
     padding: 1rem;
     margin: 0;
+    display: grid;
+    place-items: center;
+    background: black;
+    overflow: hidden;
+}
+
+#root {
+    height: 100vh;
+    display: grid;
+    place-items: center;
 }
