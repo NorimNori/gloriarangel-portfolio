@@ -1,8 +1,9 @@
+import StarsCanvas from "@/canvas/stars/index"
 
 const Lobby = () => {
   return (
     <>
-    Lobby
+    <StarsCanvas />
     </>
   )
 }
